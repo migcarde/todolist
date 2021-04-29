@@ -1,0 +1,41 @@
+name: data
+
+publish_to: none
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #External packages
+  http: ^0.13.0
+  dartz: ^0.10.0-nullsafety.1
+  get_it: ^6.0.0
+  equatable: ^2.0.0
+  connectivity: ^3.0.3
+  firebase_core: ^1.0.4
+  firebase_auth: ^1.1.1
+  firebase_storage: ^8.0.4
+
+  # Personal packages
+  domain:
+    path: ../domain
+
+  common_flutter:
+    path: ../common_flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # External packages
+  mockito: ^5.0.2
+  hive_generator: ^1.0.0
+  build_runner:
+    
+flutter:
+  uses-material-design: true

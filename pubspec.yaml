@@ -1,0 +1,67 @@
+name: todolist
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # External packages
+  hooks_riverpod: ^0.14.0+2
+  dartz: ^0.10.0-nullsafety.1
+  get_it: ^6.0.0
+  equatable: ^2.0.0
+  firebase_core: ^1.0.4
+  firebase_auth: ^1.1.1
+  firebase_storage: ^8.0.4
+
+  # Internal packages
+  data:
+    path: ./packages/data
+  domain:
+    path: ./packages/domain
+  common_flutter:
+    path: ./packages/common_flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
