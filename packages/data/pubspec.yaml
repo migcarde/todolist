@@ -34,7 +34,6 @@ dev_dependencies:
 
   # External packages
   mockito: ^5.0.2
-  hive_generator: ^1.0.0
   build_runner:
     
 flutter:
