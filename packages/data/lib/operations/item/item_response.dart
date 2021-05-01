@@ -1,3 +1,4 @@
+import 'package:domain/operations/item/item_business.dart';
 import 'package:equatable/equatable.dart';
 
 class ItemResponse extends Equatable {
@@ -12,4 +13,9 @@ class ItemResponse extends Equatable {
 
   @override
   List<Object?> get props => [id, text, isChecked];
+}
+
+extension ItemResponseExtension on ItemResponse {
+  ItemBusiness toDomain() =>
+      ItemBusiness(id: this.id, text: this.text, isChecked: this.isChecked);
 }
