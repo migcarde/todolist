@@ -1,6 +1,6 @@
 import 'package:data/operations/item/item_response.dart';
 
-import 'item_servide.dart';
+import 'item_service.dart';
 
 class ItemRemoteDataSource {
   late final ItemService itemService;
